@@ -32,3 +32,23 @@ Web Browser can view WebPage as two Objects:
 2. A DOM model is created for each page and then is stored in the memory.
 3. 'Document Object' represents the whole document.
 4. Different Objects are then created as 'Node' under the 'Document Object' like a Tree. 
+
+### Functions
+
+1. Single value returning function: 
+    - returns single values.
+     
+2. Multiple value returning function:
+    - returns multiple values using an Array.
+    
+3. Anonymous Functions & Function Expressions: 
+    - Function names are usually omiited in function expressions.
+    - Functions with no name.
+    - In a function expression, the function is not processed until the interpreter gets to that statement. This means you cannot call this function before the interpreter has discovered it. 
+    - It also means that any code that appears up to that point could potentially alter what goes on inside this function.
+    - In most cases, function expressions are stored in variables.
+    
+4. Immediately Invoked Function Expression(IIFE):
+    - these functions are immediately executed when the interpreter comes across them.
+ ![iffe](https://user-images.githubusercontent.com/83855905/150811755-7d9100fc-1286-42d9-8679-05b2807031e5.png)
+
