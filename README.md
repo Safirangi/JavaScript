@@ -2,6 +2,12 @@
 
 My Learning log of JavaScript.
 
+### 'var', 'let' and 'const'
+
+- var: variable declarartions can be easily overwritten.
+- let: re-declaring/re-assigning variables using 'let' keywords causes error.
+- const: a const variable cannot be reassigned because it is constant. 
+
 ### Objects
 
 Objects are real world models that consists of:
