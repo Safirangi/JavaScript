@@ -28,3 +28,9 @@ newArray.forEach((x, i) => console.log(x));
 ```
 
 where `x` is the string value returned by the `forEach()` function, & `i` holds the index of the array retuned by the funtion.
+
+--------------------------------------------------------------------------------------------------------------------------------
+### String Method : `charAt()`
+
+- String method `charAt()` is used to get the character/alphabet of the string, where it takes index (similar to arrays) as argument.
+
