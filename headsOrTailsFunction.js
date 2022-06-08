@@ -11,3 +11,6 @@ function headsOrTails() {
 }
 
 alert(headsOrTails());
+
+//Arrow Function for headsOrTails()
+const headsOrTails = _ => Math.random < 0.5 ? 'Heads' : 'Tails';
