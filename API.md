@@ -34,7 +34,7 @@ Code interacts with APIs using one or more JavaScript objects, which serve as co
 
 Some APIs need **Query Parameters** to return the correct data:
 ```
-const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
+const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita'
 // ?s=margarita is a query parameter
 
 fetch(url) 
@@ -46,3 +46,4 @@ fetch(url)
     console.log(`error ${err}`)
   });
 ```
+
