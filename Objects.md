@@ -14,7 +14,7 @@ let stopwatch = {}
 stopwatch.currentTime = 12    //property of the object
 
 stopwatch.tellTime = function(time) {   //method of the object
-  console.log('The current time is ${time}.')
+  console.log(`The current time is ${time}.`)
 }
 
 stopwatch.tellTime(stopwatch.currentTime)
@@ -36,7 +36,7 @@ function MakeCar(carMake, carModel, carColor, numOfDoors) {
   }
   
   this.lock = function() {
-    alert('Locked ${this.doors} doors!')
+    alert(`Locked ${this.doors} doors!`)
   }
 }
 
@@ -64,7 +64,7 @@ class MakeCar {
     alert('BEEP BEEP')
   }
   lock() {
-    alert('Locked ${this.doors} doors!')
+    alert(`Locked ${this.doors} doors!`)
   }
 }
 
