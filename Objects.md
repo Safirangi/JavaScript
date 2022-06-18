@@ -46,3 +46,29 @@ function MakeCar(carMake, carModel, carColor, numOfDoors) {
 let hondaCivic = new MakeCar('Honda', 'Civic', 'Silver', 4)
 let teslaRoadster = new MakeCar('Tesla', 'Roadster', 'Red', 2)
 ```
+
+### Class and Constructor
+Class is a template for objects.
+
+e.g.
+
+```
+class MakeCar {
+  constructor(carMake, carModel, carColor, numOfDoors) {
+    this.make = carMake
+    this.model = carModel
+    this.color = carColor
+    this.doors = numOfDoors
+  }
+  honk() {
+    alert('BEEP BEEP')
+  }
+  lock() {
+    alert('Locked ${this.doors} doors!')
+  }
+}
+
+let hondaCivic = new MakeCar('Honda', 'Civic', 'Silver', 4)
+```
+
+
