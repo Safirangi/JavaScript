@@ -31,3 +31,17 @@ object as its response.*/
 ```
 
 Code interacts with APIs using one or more JavaScript objects, which serve as containers for the data the API uses (contained in object properties), and the functionality the API makes available (contained in object methods).
+
+Some APIs need **Query Parameters** to return the correct data:
+```
+const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
+
+fetch(url) 
+  .then(res => res.json())  //parse response as JSON
+  .then(data => {
+    console.log(data)
+  })
+  .catch(err => {
+    console.log(`error ${err}`)
+  });
+```
