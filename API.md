@@ -29,3 +29,5 @@ fetch("https://dog.ceo/api/breeds/image/random")
 /* The 'fetch()' method is used to send the request to the server, which returns an
 object as its response.*/
 ```
+
+Code interacts with APIs using one or more JavaScript objects, which serve as containers for the data the API uses (contained in object properties), and the functionality the API makes available (contained in object methods).
