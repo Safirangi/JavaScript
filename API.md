@@ -23,7 +23,7 @@ fetch("https://dog.ceo/api/breeds/image/random")
     console.log(data)     //object is sent as a response
   })
   .catch(err => {
-    console.log('Error ${err}')
+    console.log(`Error ${err}`)
   });
   
 /* The 'fetch()' method is used to send the request to the server, which returns an
