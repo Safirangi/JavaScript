@@ -40,6 +40,7 @@ Web Browser can view WebPage as two Objects:
     - In most cases, function expressions are stored in variables.  
 4. Immediately Invoked Function Expression(IIFE):
     - these functions are immediately executed when the interpreter comes across them.
+
  ![iffe](https://user-images.githubusercontent.com/83855905/150811755-7d9100fc-1286-42d9-8679-05b2807031e5.png)
 
 ### Object, Properties and Methods
@@ -94,7 +95,7 @@ delete hotel.name;
 ```
 
 
-[markdown link](https://github.com/explore){:target="_blank"}
+[markdown link](https://github.com/explore)
 
 <a href="https://github.com/explore" target="_blank">markdown link with target</a>
 
