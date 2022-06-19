@@ -95,10 +95,6 @@ delete hotel.name;
 ```
 
 
-[markdown link](https://github.com/explore?target=_blank)
-
-<a href="https://github.com/explore" target="_blank">markdown link with target</a>
-
 
 
 
