@@ -71,4 +71,14 @@ class MakeCar {
 let hondaCivic = new MakeCar('Honda', 'Civic', 'Silver', 4)
 ```
 
+### Prototype
+A Prototype is another object that is used as a fallback source of properties.
+
+e.g.
+```
+let teslaRoadster = new MakeCar('Tesla', Roadster', 'Red', 4)
+console.log(teslaRoadster.bluetooth)    //property undefined
+MakeCar.prototype.bluetooth = true;
+console.log(teslaRoadster.bluetooth)
+```
 
