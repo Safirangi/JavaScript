@@ -82,3 +82,5 @@ MakeCar.prototype.bluetooth = true;
 console.log(teslaRoadster.bluetooth)
 ```
 
+### 'this' keyword
+'this' keyword binds the properties of the class to the objects created by the class.
