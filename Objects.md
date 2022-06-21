@@ -83,4 +83,4 @@ console.log(teslaRoadster.bluetooth)
 ```
 
 ### 'this' keyword
-'this' keyword binds the properties of the class to the objects created by the class.
+'this' keyword binds the properties of the class to the objects created by the class. It helps an object to refer to itself.
