@@ -60,7 +60,7 @@ class MakeCar {
     this.color = carColor
     this.doors = numOfDoors
   }
-  honk() {
+  honk() {      //methods do not need 'function' keyword
     alert('BEEP BEEP')
   }
   lock() {
