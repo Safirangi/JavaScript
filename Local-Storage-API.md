@@ -3,7 +3,9 @@ It is an API that gives a simple interface to store data and files on the user's
 
 *Session Storage*: Data is stored for just that session, and once browser is closed the data is lost.
 
-- Method to add item into Local Storage: `localStorage.setItem('weather', 'sunny')`
+Local Storage API methods:
+
+- to add item into Local Storage: `localStorage.setItem('weather', 'sunny')`
 
 <div align="center">
 
@@ -17,10 +19,10 @@ It is an API that gives a simple interface to store data and files on the user's
 
 </div>
 
-- Method to get item from the Local Storage: `localStorage.getItem('weather', 'sunny')`
+- to get item from the Local Storage: `localStorage.getItem('weather', 'sunny')`
 
-- Method to remove item from Local Storage: `localStorage.removeItem('weather', 'sunny')`
+- to remove item from Local Storage: `localStorage.removeItem('weather', 'sunny')`
 
-- Method to clear all items from Local Storage: `localStorage.clear()`
+- to clear all items from Local Storage: `localStorage.clear()`
 
 
