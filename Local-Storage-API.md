@@ -1,7 +1,7 @@
 # Local Storage API 
 It is an API that gives a simple interface to store data and files on the user's computer, across browser sessions
 
-*Session Storage*: Data is stored for just that session, and once browser is closed the data is lost.
+*Session Storage*: Data is stored for just that session, and once browser is closed the data is lost. But, the data is retained even when the page is refreshed.
 
 Local Storage API methods:
 
