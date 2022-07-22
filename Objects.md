@@ -10,6 +10,7 @@ e.g.
 
 ```
 let stopwatch = {} 
+/*'stopwatch' is the class*/
 
 stopwatch.currentTime = 12    //property of the object
 
